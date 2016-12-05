@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir"                      : "./dist/",
+    "sourceMap"                   : true,
+    "noImplicitAny"               : false,
+    "noUnusedParameters"          : true,
+    "noUnusedLocals"              : true,
+    "removeComments"              : true,
+    "preserveConstEnums"          : true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution"            : "node",
+    "module"                      : "commonjs",
+    "target"                      : "es5",
+    "jsx"                         : "react"
+  },
+  "files"          : [
+    "./declarations.d.ts",
+    "./src/index.tsx"
+  ],
+  "exclude"        : [
+    "node_modules"
+  ]
+}

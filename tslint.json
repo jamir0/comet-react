@@ -1,0 +1,88 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react"
+  ],
+  "rules"  : {
+    "align"                     : [
+      true,
+      "parameters",
+      "statements"
+    ],
+    "member-access": false,
+    "curly"                     : true,
+    "class-name"                : true,
+    "radix"                     : true,
+    "comment-format"            : [
+      true,
+      "check-space"
+    ],
+    "indent"                    : [
+      true,
+      "spaces"
+    ],
+    "no-duplicate-variable"     : true,
+    "no-use-before-declare"     : true,
+    "no-eval"                   : true,
+    "no-internal-module"        : true,
+    "no-trailing-whitespace"    : true,
+    "no-var-keyword"            : true,
+    "no-require-imports"        : true,
+    "no-reference"              : true,
+    "no-consecutive-blank-lines": [
+      true,
+      1
+    ],
+    "trailing-comma"            : [
+      true,
+      {
+        "multiline" : "never",
+        "singleline": "never"
+      }
+    ],
+    "ordered-imports"           : false,
+    "one-line"                  : [
+      true,
+      "check-open-brace",
+      "check-whitespace"
+    ],
+    "quotemark"                 : [
+      true,
+      "single",
+      "jsx-double"
+    ],
+    "semicolon"                 : [
+      true,
+      "always"
+    ],
+    "triple-equals"             : [
+      true,
+      "allow-null-check"
+    ],
+    "typedef-whitespace"        : [
+      true,
+      {
+        "call-signature"      : "nospace",
+        "index-signature"     : "nospace",
+        "parameter"           : "nospace",
+        "property-declaration": "nospace",
+        "variable-declaration": "nospace"
+      }
+    ],
+    "variable-name"             : [
+      true,
+      "ban-keywords"
+    ],
+    "whitespace"                : [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-separator",
+      "check-type"
+    ],
+    "jsx-alignment"             : true,
+    "jsx-no-lambda"             : true,
+    "jsx-self-close"            : true
+  }
+}
